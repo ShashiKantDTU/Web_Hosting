@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    background-image: url(/Web_Hosting/login&signup/Images/loginbg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* #grren */
+#nav {
+    margin: 0;
+    height: 50px;
+    border-radius: 20px;
+}
+
+#nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+
+#nav ul a i{
+    color: rgb(24, 156, 239);
+}
+
+#nav ul i:hover{
+    box-shadow: 1px 1px 5px white , -1px -1px 5px white;
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 100px;
+    padding-left: 50px;
+    
+    
+}
+
+@media screen and (max-width:600px) {
+    main{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+
+    
+    
+}
+
+/* #pink */
+#contents {
+    
+    display: flex;
+    min-width: 350px;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.379);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px white, -1px -1px 5px white;
+
+}
+
+/* #yellow */
+form{
+
+    
+    display: flex;
+    
+    flex-direction: column;
+    gap: 40px;
+    
+    
+}
+
+
+/* #black */
+h1{
+    padding-top: 45px;
+    width: 90%;
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-size: 4em;
+    color: white;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 5px;
+    
+}
+
+form input.text{
+    /* margin: 20px; */
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: hsla(0, 0%, 83%, 0.636);
+    border-radius: 20px;
+    width: 90%;
+    height: 40px;
+}
+
+form input.text:focus{
+    background-color: white;
+    font-family: serif,'Times New Roman', Times;
+}
+
+form label{
+    /* margin: 25px;
+    margin-left: 5px; */
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.775);
+}
+
+#remembermecontainer{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#remembermeboxandlabel label{
+    font-family: "pattaya", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 5px;
+    color: white;
+}
+
+#remembermeboxandlabel label:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 5px, -1px -1px 5px;
+}
+
+.checkbox{
+    transform: scale(1.3);
+}
+
+.checkbox:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px white, -1px -1px 5px white;
+}
+
+form a.forgotpassword{
+    text-decoration: none;
+    color: white;
+    font-family: "pattaya", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 5px;
+    
+}
+
+form a.forgotpassword:hover{
+    text-shadow: 1px 1px 5px, -1px -1px 5px;
+}
+
+
+
+form input.submit{
+    font-family: "pattaya", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+form input.submit:hover{
+    
+    cursor: pointer;
+    box-shadow: 1px 1px 5px white, -1px -1px 5px white;
+}
+
+#register{
+    width: 80%;
+    margin: -30px auto;
+    margin-bottom: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+#register p{
+    padding: 0;
+    margin-top: 0;
+    text-decoration: none;
+    color: white;
+    font-family: "pattaya", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.registerlink{
+    text-decoration: none;
+    padding: 0;
+    margin-top: 1px;
+    text-decoration: none;
+    color: white;
+    font-family: "pattaya", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 5px;
+}
+
+.registerlink:hover{
+    text-shadow: 1px 1px 5px, -1px -1px 5px;
+}
+
+
+
+
+
+
+

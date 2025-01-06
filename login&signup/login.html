@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Web_Hosting/login&signup/login.css">
+    <script src="https://kit.fontawesome.com/70198d163b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Pattaya&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house fa-xl" style="color: #ffffffbe;"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/sunny-poddar-2595b4229/"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+            <!-- <li><a href="form.html"><i class="fa-solid fa-right-to-bracket fa-shake fa-xl" style="color: #345e7ddf;"></i></a1788></li> -->
+        </ul>
+    </nav>
+    <main>
+        <div id="contents">
+            <h1>Login</h1>
+            <form action="index.js">
+                <input class="text" type="text" id="username" placeholder="Enter username" required>
+                <input class="text" type="password" id="password" placeholder="Enter Password" required minlength="3">
+                <div id="remembermecontainer">
+                    <div id="remembermeboxandlabel">
+                        <input class="checkbox" type="checkbox" name="rememberme" id="rememberme">
+                        <label for="rememberme">Remember me</label>
+                    </div>
+                        <a class="forgotpassword" href="">Forgot password ?</a>
+                </div>
+                <input class="submit" type="submit">
+                <div id="register">
+                    <p >Don't have an account ?&ThickSpace; </p>
+                    <a class="registerlink" href="/Web_Hosting/login&signup/signup.html">Register</a>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

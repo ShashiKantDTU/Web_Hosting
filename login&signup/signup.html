@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Web_Hosting/login&signup/signup.css">
+    <script src="https://kit.fontawesome.com/70198d163b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Pattaya&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house fa-xl" style="color: #ffffffbe;"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/sunny-poddar-2595b4229/"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="contents">
+            <h1>Sign Up</h1>
+            <form action="signup.js">
+                <input class="text" type="text" id="fullname" placeholder="Enter Full Name" required>
+                <input class="text" type="email" id="email" placeholder="Enter Email" required>
+                <input class="text" type="text" id="username" placeholder="Choose a Username" required>
+                <input class="text" type="password" id="password" placeholder="Create a Password" required>
+                <input class="text" type="password" id="confirm_password" placeholder="Confirm Password" required>
+                <div id="termscontainer">
+                    <div id="termsboxandlabel">
+                        <input class="checkbox" type="checkbox" name="terms" id="terms" required>
+                        <label for="terms">I agree to the Terms and Conditions</label>
+                    </div>
+                </div>
+                <input class="submit" type="submit" value="Sign Up">
+                <div id="login">
+                    <p>Already have an account?&ThickSpace;</p>
+                    <a class="loginlink" href="/Web_Hosting/login&signup/login.html">Log In</a>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
