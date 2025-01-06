@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <main id="main">
+        <div><a href="/index.html">Home</a></div>
+        <h1>Guess a number between <span id="minmax">1 and 20</span></h1>
+        <div id="hover">
+            <h4>To cutomize the Game</h4>
+            <div id="level">
+                <button id="settingsbtn">Settings</button>
+                <h2>[<span id="currentlevel"></span>&ThickSpace; Mode]</h2>
+
+            </div>
+            <div id="settings">
+
+                <button id="easy">
+                    <h5>Easy</h5>
+                    <p>Range: 1-10</p>
+                    <p>Chances : 5</p>
+                </button>
+                <button id="medium">
+                    <h5>Medium</h5>
+                    <p>Range: 1-50</p>
+                    <p>Chances : 5</p>
+                </button>
+                <button id="hard">
+                    <h5>Hard</h5>
+                    <p>Range: 1-500</p>
+                    <p>Chances : 5</p>
+                </button>
+            </div>
+        </div>
+
+        <h3>##Remark:&ThickSpace;<span id="message"></span>&ThickSpace;<span id="tries"></span> </h3>
+        <input id="numberinputfromuser" type="number" placeholder="Enter a number here">
+        <button id="submit" class="btn">submit</button>
+        <button id="reset" class="btn">reset</button>
+        <div id="chances">
+            <div id="greater">
+                <h3>Number is Greater than</h3>
+                <p id="p1"></p>
+                <p id="p2"></p>
+                <p id="p3"></p>
+                <p id="p4"></p>
+                <p id="p5"></p>
+                <p id="p6"></p>
+                <p id="p7"></p>
+                <p id="p8"></p>
+                <p id="p9"></p>
+                <p id="p10"></p>
+            </div>
+            <div id="less">
+                <h3>Number is Less than</h3>
+                <p id="q1"></p>
+                <p id="q2"></p>
+                <p id="q3"></p>
+                <p id="q4"></p>
+                <p id="q5"></p>
+                <p id="q6"></p>
+                <p id="q7"></p>
+                <p id="q8"></p>
+                <p id="q9"></p>
+                <p id="q10"></p>
+                
+            </div>
+        </div>
+    </main>
+
+    <script src="game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #ECF0F1;
+    background: linear-gradient(135deg, #2C3E50, #4A4A4A);
+}
+
+header {
+    margin: 0;
+    background: linear-gradient(135deg, #3498DB, #2980B9);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 2.5em;
+}
+
+h3 {
+    margin: 0;
+    color: #ECF0F1;
+    font-size: 1.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #34495E, #2C3E50);
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav .contact-info a {
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #3498DB;
+}
+
+
+
+.contact-info {
+    position: relative;
+    cursor: pointer;
+}
+
+.contact-info .dropdown {
+    display: none;
+    position: absolute;
+    top: 23px;
+    right: 0;
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: fit-content;
+}
+
+.contact-info:hover .dropdown {
+    display: block;
+    z-index: 10;
+
+}
+
+.contact-info .dropdown:hover {
+    display: block;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+
+.dropdown p {
+    margin: 5px 0;
+}
+
+
+#belowheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+#indexbutton {
+    height: 40px;
+    width: 10%;
+    min-width: 80px;
+    background-color: #3498DB;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#indexbutton:hover {
+    background-color: #2980B9;
+}
+
+#indexbutton:hover ~ main aside {
+    display: block;
+}
+
+.signup {
+    position: absolute;
+    right: 0;
+    z-index: -50px;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 80px;
+    min-width: 80px;
+}
+
+#signupbutton {
+    height: 40px;
+    width: 10%;
+    min-width: 80px;
+    background-color: #3498DB;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#signupbutton:hover {
+    background-color: #2980B9;
+}
+
+
+main {
+    display: flex;
+    
+}
+
+aside {
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(135deg, #34495E, #2C3E50);
+    padding-left: 0;
+    min-width: 250px;
+    width: 35%;
+    float: left;
+    border: solid 1px #BDC3C7;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+aside:hover {
+    display: block;
+    height: fit-content;
+    transform: scale(1.05);
+    opacity: 0.95;
+}
+
+#asidecontent {
+    padding: 9px;
+    padding-top: 0%;
+}
+
+#asidecontent li {
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 5px 0;
+    border-bottom: 1px solid #BDC3C7;
+}
+
+#asidecontent a {
+    text-decoration: none;
+    color: #ECF0F1;
+    transition: color 0.3s ease;
+}
+
+#asidecontent a:hover {
+    color: #3498DB;
+}
+
+section {
+    float: left;
+    background: linear-gradient(135deg, #34495E, #2C3E50);
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section p, h4 {
+    padding-left: 10px;
+    color: #ECF0F1;
+    
+}
+
+
+.jumptotop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    bottom: 10px;    
+    right: 10px;
+    
+    border: solid;
+    border-radius: 30px;
+    width: fit-content;
+    
+    padding: 10px;
+
+    
+    text-align: end;
+        
+}
+
+.jumptotop a:visited{
+    
+    color: white;
+    
+}
+.jumptotop a{
+    font-size: 7px;
+    text-decoration: none;
+    color: white;
+    
+}
+
