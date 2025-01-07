@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Web_Hosting/Temp_converter/Temp_converter.css">
+    <title>Temp Converter</title>
+</head>
+
+<body>
+    <div id="homecontainer">
+        <a href="/Web_Hosting/index.html">Home</a>
+        <main>
+            <div id="seprator">
+
+                <div id="content">
+
+                    <h2>Enter Tempreture</h2>
+                    <input type="number" id="userinput">
+                    <p>Convert to</p>
+                    <div id="radiocontainer">
+                        <div>
+                            <label for="celtofah">Celsius to Fahrenhite</label>
+                            <input id="celtofah" type="radio" name="select">
+                        </div>
+                        <div>
+                            <label for="celtokel">Celsius to kelvin</label>
+                            <input id="celtokel" type="radio" name="select">
+                        </div>
+                        <div>
+                            <label for="fahtokel">Fahrenhite to kelvin</label>
+                            <input id="fahtokel" type="radio" name="select">
+                        </div>
+                        
+                        
+                    </div>
+
+                    <div>
+                        <label for="reverse">Reverse above Selection ?</label>
+                        <input id="reverse" type="checkbox">
+                        <p>(Eg. Option 1 will convert °F to °C )</p>
+                    </div>
+
+                    <button type="button" onclick="convert()">Convert to</button>
+                </div>
+
+            </div>
+            <div id="result">
+                <p id="resulttext">Result will be Displayed Here</p>
+            </div>
+        </main>
+    </div>
+    <script src="/Web_Hosting/Temp_converter/Temp_converter.js"></script>
+</body>
+
+</html>

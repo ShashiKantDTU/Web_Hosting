@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+background: #222222;
+color: #e0e0e0;
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#homecontainer{
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: solid white; */
+}
+#homecontainer a{
+    width: fit-content;
+    border: solid;
+    text-decoration: none;
+    /* margin-bottom: 10px; */
+    /* margin-left: 10px; */
+    padding: 10px;
+    color: white;
+    background-color: darkviolet;
+    border-radius: 10px;
+}
+
+
+/* GREEN BORDER */
+main{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    /* border: solid green; */
+}
+
+
+/* darkviolet BORDER */
+/* NEEDED FOR LAYOUT */
+#seprator{
+    width: 50%;
+    /* border: solid darkviolet; */
+}
+
+
+/* RED BORDER */
+#content{
+    background-color:#6a6969;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    /* border: solid red; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top: solid darkviolet;
+    border-left: solid darkviolet;
+    border-bottom: solid darkviolet;
+}
+
+
+#content button {
+    border: none;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: white;
+    background: linear-gradient(135deg, darkviolet, indigo);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#content button:hover {
+    background: linear-gradient(135deg, indigo, darkviolet);
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+#content button:hover{
+    background-color: rgb(111, 0, 159);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+
+/* YELLOW BORDER */
+#radiocontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 10px;
+    border: solid darkviolet;
+    color: #e0e0e0;
+}
+
+#content input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #444444;
+    color: #e0e0e0;
+}
+
+
+/* HEADING */
+
+
+/*  LIGHT GREEN 2 BORDER */
+#result{
+    background: linear-gradient(135deg, darkviolet, indigo);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#result p{
+    font-size: 1.5rem;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#result:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
