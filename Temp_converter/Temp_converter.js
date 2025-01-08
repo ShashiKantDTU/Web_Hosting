@@ -91,7 +91,8 @@ function convert() {
     }
 
     // IF NO INPUT IS GIVEN
-    else if (userinput == "") {
+    else if (userinput == NaN) {
+        console.log("NAN triggred");
         calresult = "Invalid input ❌";
         result.textContent = calresult
         // NO RADIO BUTTON IS CHECKED 
